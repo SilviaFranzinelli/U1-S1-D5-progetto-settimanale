@@ -1,0 +1,43 @@
+/* Your styles here */
+body {text-align: center;}
+header {
+    background-color: black;
+    padding: 10px;
+}
+#banner {
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    padding-bottom: 20px;
+}
+#banner p {
+    color: black;
+}
+
+h1 {color:#25a2c3;}
+button {
+    background-color:red;
+    color:white;
+    border-radius: 10%;
+    border-color: red;
+    padding: 5px;
+    
+}
+h3 {color:#25a2c3}
+#image {border-radius:50%;}
+#rosso { background-color: red;
+    padding: 20px;
+}
+h2, h4, #banner p { color: white;}
+
+#art1, #art2, #art3{border-color: black;
+margin-top: 50px;
+padding-bottom: 20px;
+border:1px solid lightgray;
+border-radius: 10px;}
+
+footer {
+    background-color: #25a2c3;
+    padding:20px;
+}
+a {color:white}
+i {color: white}
