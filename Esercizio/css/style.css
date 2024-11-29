@@ -1,43 +1,93 @@
 /* Your styles here */
-body {text-align: center;}
+body {
+    text-align: center;
+    font-family: 'Open Sans';
+    color: #393d41 ;
+}
+
 header {
     background-color: black;
     padding: 10px;
 }
+
 #banner {
-    background-image: url(images/banner.jpg);
+    background-image: url('/Esercizio/images/banner.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
     background-position: center;
-    padding-bottom: 20px;
-}
-#banner p {
-    color: black;
+   padding: 20px;
+    
 }
 
-h1 {color:#25a2c3;}
+h1 {
+    color:#25a2c3;
+    font-size: 2rem;
+    padding: 20px;
+    font-weight: bold;
+}
+
+main p {
+    padding: 20px;
+}
+
 button {
     background-color:red;
     color:white;
     border-radius: 10%;
     border-color: red;
-    padding: 5px;
+    padding: 7px;
     
 }
-h3 {color:#25a2c3}
+h3 {
+    color:#25a2c3;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 #image {border-radius:50%;}
-#rosso { background-color: red;
+
+#rosso { 
+    background-color: red;
     padding: 20px;
 }
-h2, h4, #banner p { color: white;}
+h2, h4, #rosso p{ color: white;}
 
-#art1, #art2, #art3{border-color: black;
-margin-top: 50px;
-padding-bottom: 20px;
-border:1px solid lightgray;
-border-radius: 10px;}
+#art1, #art2, #art3{
+    width: 350px;
+    border-color: black;
+    margin: 20px;
+    padding-bottom: 20px;
+    border:1px solid #dee1e3;
+    border-radius: 10px;
+
+}
 
 footer {
     background-color: #25a2c3;
     padding:20px;
+    margin-top: 50px;
+    height: 300px;
 }
+footer h2 {
+    padding: 20px;
+}
+footer p {
+    padding: 5px;
+}
+
+hr {
+    color: white;
+    width: 150px;
+}
+
 a {color:white}
 i {color: white}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
